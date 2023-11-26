@@ -11,7 +11,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--slate);
-    background-color: var(--white);
+    background: var(--white);
 }
 
 .link{
@@ -23,7 +23,7 @@ body{
 }
 
 .list-item{
-    background-color: var(--white);
+    background: var(--white);
 }
 
 .logo {
@@ -45,14 +45,14 @@ body{
     color: var(--cloud);
 }
 
-.footer{
-    background-color: var(--navy-blue);
+.footer, .section-one{
+    background: var(--navy-blue);
 }
 
 /* .logo-secondpart, .footer{
     background-color: var(--navy-blue);
 } */
-/* Styl .logo-secondpart dotyczy koloru czcionki loga znajdującej się na górze strony Natomiast styl .footer zawiera kolor tła footera. Po połączeniu tych dwóch styli górne logo (słowo Studio) ma tło koloru navy-blue zamiast white i kolor czcionki domyślny, zamiast navy-blue.  */
+/* Styl .logo-secondpart dotyczy koloru czcionki loga znajdującej się na górze strony Natomiast styl .footer zawiera kolor tła footera. Po połączeniu tych dwóch styli górne logo (słowo Studio) ma tło koloru navy-blue zamiast white i kolor czcionki domyślny, zamiast navy-blue. Chyba, że chodziło o styl .section-one i .footer. To te dwa style połączyłem. */
 
 
 .text-footer
@@ -88,12 +88,12 @@ body{
     color: var(--slate);
 }
 
-.section-one{
+/* .section-one{
     background-color: var(--navy-blue);
-}
+} */
 
 .section-fourth{
-    background-color:var(--cloud);
+    background:var(--cloud);
 }
 
 .button-orderservice{
