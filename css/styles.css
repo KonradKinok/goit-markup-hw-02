@@ -21,13 +21,14 @@ body{
 .list{
     list-style: none;
 }
+
 .list-item{
     background-color: var(--white);
 }
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.54px;
@@ -36,15 +37,24 @@ body{
     text-decoration: none;
 }
 
- .logo-secondpart{
-color: var(--navy-blue);
+.logo-secondpart{
+    color: var(--navy-blue);
 }
+
 .logo-secondpart-footer{
     color: var(--cloud);
-    }
+}
+
 .footer{
     background-color: var(--navy-blue);
 }
+
+/* .logo-secondpart, .footer{
+    background-color: var(--navy-blue);
+} */
+/* Styl .logo-secondpart dotyczy koloru czcionki loga znajdującej się na górze strony Natomiast styl .footer zawiera kolor tła footera. Po połączeniu tych dwóch styli górne logo (słowo Studio) ma tło koloru navy-blue zamiast white i kolor czcionki domyślny, zamiast navy-blue.  */
+
+
 .text-footer
 {
     font-size: 16px;
@@ -52,6 +62,7 @@ color: var(--navy-blue);
     letter-spacing: 0.32px;
     color: var(--cloud);
 }
+
 .list .link{
     font-size: 16px;
     font-weight: 500;
@@ -60,38 +71,35 @@ color: var(--navy-blue);
     color: var(--navy-blue);
 }
 
-
 .list .link:hover,
 .list .link:focus{
-color:var(--ocean);
+    color:var(--ocean);
 }
 
 .address {
-font-style: normal;
+    font-style: normal;
 }
+
 .navigation-address .link{
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--slate);
-    
 }
-
-
 
 .section-one{
     background-color: var(--navy-blue);
 }
+
 .section-fourth{
     background-color:var(--cloud);
 }
+
 .button-orderservice{
     font-family: 'Roboto', sans-serif;
     background: var(--iris);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
@@ -107,26 +115,25 @@ font-style: normal;
 .button-portfolio{
     font-family: 'Roboto', sans-serif;
     background: var(--cloud);
-        font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.64px;
-            color: var(--iris);
-            
-            text-align: center;
-            cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--iris);
+    text-align: center;
+    cursor: pointer;
 }
+
 .button-portfolio:hover,
 .button-portfolio:focus{
     background: var(--ocean);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
     color:var(--white);
 }
+
 .header-first{
     color: var(--white);
     text-align: center;
@@ -137,10 +144,8 @@ font-style: normal;
     letter-spacing: 1.12px;
 }
 
-
 .header-second{
-font-size: 36px;
-    font-style: normal;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -149,19 +154,16 @@ font-size: 36px;
     color:var(--navy-blue);
 }
 
-.header-third{
+.list-item-header{
     font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
-        color: var(--navy-blue);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--navy-blue);
 }
 
 .text{
     font-size: 16px;
-    /* font-style: normal;
-    font-weight: 400; */
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--slate);
